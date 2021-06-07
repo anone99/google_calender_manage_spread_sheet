@@ -6,7 +6,8 @@
 
  __copy your drive__
  > **[sample spread sheet](https://docs.google.com/spreadsheets/d/1sBh8rc-nnwt-Ma067rqBUcL878I2bsXkwd1DiU0s1V4/edit?usp=sharing)**
- 
+ > [Menu] -> copy -> YOUR Google Drive
+  
  ### MUST COLUMNS
  - All HEADER Columns and A2:E2(generate title)
 
@@ -15,8 +16,8 @@
 ## Installation
 
 - copy or create spread sheet your google drive
-- sheet menu -> tools -> script editor(open window)
-- past this source [source](https://github.com/anone99/google_calender_from_spread_sheet/blob/main/index.js)
+- spread sheet [Menu] -> tools -> script editor(open window)
+- copy & past this source [source](https://github.com/anone99/google_calender_from_spread_sheet/blob/main/index.js)
 
 ## Trigger setting (sheet changed)
 
