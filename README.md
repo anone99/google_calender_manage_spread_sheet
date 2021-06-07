@@ -35,22 +35,20 @@
 
 ## USAGE
 
-- #### ADD Schedule
+#### ADD Schedule
  - Fill the must columns B~E 
    DATETIME format is (YYYY-MM-DD HH:MM:SS)
  - Fill in other columns if needed.(option)
  - It's probably synced. 
  
-- #### EDIT or UPDATE Schedule
+#### EDIT or UPDATE Schedule
  - EDIT columns.
  - Finally remove the added "*".
  - It's probably synced. 
  
 ## NOTICE
 
- - inserted schedule is `*` in "A(added)"
- - if need insert again for your calender. delete `*`. 
-
+ - if you delete schedule on spreadsheet. Only sheet columns are deleted. (not delete your calender's schedule.) 
 
 ### More info:
 
