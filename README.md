@@ -23,16 +23,16 @@
 
 - Your Google Calender (ex. Create [Makai Calender]) -> [Menu] -> Setting & Share Open
 - opened setting page. scroll down [Calender ID] ex. ********@group.calendar.google.com　
-- and paste for your script editor (<calender ID here>)
+- and paste for your script editor at \<calender ID here\>.
 
 ## Trigger setting (sheet changed)
 
 - click add trigger in script editor
 - add filter
 - select
- - function name[scheduleShifts] 
- - source [spreadSheet] 
- - event [changed] 
+ - function name \[scheduleShifts\] 
+ - source \[spreadSheet\] 
+ - event \[changed\] 
 
 ## USAGE
 
