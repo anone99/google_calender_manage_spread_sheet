@@ -29,10 +29,9 @@
 
 - click add trigger in script editor
 - add filter
-- select
- - function name \[scheduleShifts\] 
- - source \[spreadSheet\] 
- - event \[changed\] 
+- select function name \[scheduleShifts\] 
+- select source \[spreadSheet\] 
+- select event \[changed\] 
 
 ## USAGE
 
