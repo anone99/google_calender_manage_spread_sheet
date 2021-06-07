@@ -9,15 +9,21 @@
  > [Menu] -> copy -> YOUR Google Drive
   
  ### MUST COLUMNS
- - All HEADER Columns and A2:E2(generate title)
+ - All HEADER Columns and A2:E2(generate calender title)
 
 -------------
 
 ## Installation
 
-- copy or create spread sheet your google drive
-- spread sheet [Menu] -> tools -> script editor(open window)
+- YOUR Google Drive Spread Sheet 
+- [Menu] -> tools -> script editor(open window)
 - copy & past this source [source](https://github.com/anone99/google_calender_from_spread_sheet/blob/main/index.js)
+
+## Set your Calender ID
+
+- Your Google Calender (ex. Create [Makai Calender]) -> [Menu] -> Setting & Share Open
+- opened setting page. scroll down [Calender ID] ex. ********@group.calendar.google.com　
+- and paste for your script editor (<calender ID here>)
 
 ## Trigger setting (sheet changed)
 
@@ -28,6 +34,19 @@
  - source [spreadSheet] 
  - event [changed] 
 
+## USAGE
+
+- #### ADD Schedule
+ - Fill the must columns B~E 
+   DATETIME format is (YYYY-MM-DD HH:MM:SS)
+ - Fill in other columns if needed.(option)
+ - It's probably synced. 
+ 
+- #### EDIT or UPDATE Schedule
+ - EDIT columns.
+ - Finally remove the added "*".
+ - It's probably synced. 
+ 
 ## NOTICE
 
  - inserted schedule is `*` in "A(added)"
