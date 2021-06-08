@@ -1,3 +1,5 @@
+var LINE_NOTIFY_TOKEN = "<LINE_NOTIFY_TOKEN here>"
+
 function scheduleShifts() {
   let spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
   let sheet = spreadsheet.getSheets()[0];
@@ -15,13 +17,34 @@ function scheduleShifts() {
         //終了時間は1時間後で設定
         new Date(endTime.setHours(endTime.getHours() + 1));
         let title = content[r][2] + '-' + content[r][3] + ' ' + '(' + content[r][4] + ')';
-        let body = '';
+        var body = '';
         for (c=5; c<lastColumn;c++){
           body = body + header[0][c]+':'+content[r][c]+'\n';
         }
         eventCal.createEvent(title, startTime, endTime).setDescription(body);
         sheet.getRange(r+1,1).setValue("*");
     }
+  }
+   
+  if(LINE_NOTIFY_TOKEN != '' & body !=''){
+    
+    var LINE_NOTIFY_API = "https://notify-api.line.me/api/notify";
+ 
+    //LINEにメッセージを送る
+    function sendLineMessage() {
+      var response = UrlFetchApp.fetch(LINE_NOTIFY_API, {
+        "method": "post",
+        "headers": {
+          "Authorization": "Bearer " + LINE_NOTIFY_TOKEN
+        },
+        "payload": {
+          "message": body
+        }
+      });
+    }
+    
+    sendLineMessage();
+    
   }
 }
 
