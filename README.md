@@ -32,11 +32,12 @@
 - Your Google Calender (ex. Create [Makai Calender]) -> [Menu] -> Setting & Share Open
 - opened setting page. scroll down [Calender ID] ex. ********@group.calendar.google.com　
 - and paste for your script editor at \<calender ID here\>.
-
+- click "RUN". then popup a authorize window. authorize your Google account. 
 
 - 予定を追加したい Googleカレンダーの「設定と共有」画面を開きます。 例 魔界カレンダーなど作ってもok
 - 開いた画面の中段あたりに カレンダーIDが記載されています。 こんな-> ********@group.calendar.google.com
 - カレンダーIDをソースの\<calender ID here\>へ貼り付けてください。
+- "実行"ボタンをクリックし、Googleの認証画面が表示されるので認証してください。chromeの場合警告画面が出る場合があります。"詳細表示"から先に進めます。
 
 ## Trigger setting (sheet changed)
 
