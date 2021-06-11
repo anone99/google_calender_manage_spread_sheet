@@ -3,7 +3,7 @@
 - insert schedule from spread sheet
 - スプレッドシートからGoogleカレンダーに予定を追加するやつ
 
-\[NEW\] 2021.06.08line notifyで自分のLineにも通知させるオプション追加[詳細]()
+\[NEW\] 2021.06.08line notifyで自分のLineにも通知させるオプション追加 [詳細](https://github.com/anone99/google_calender_manage_spread_sheet/blob/main/README.md#push-to-line-option)
 
 ## Spread Sheet
 
@@ -68,6 +68,13 @@
  - It's probably synced. 
  - 再編集をカレンダーに反映させたい時はA列の"*"を消す
  - たぶん同期される
+
+#### ADD Columns
+ - if you need other infomations. Add to the last line.
+ - The added line will be added to the calendar message.
+ 
+ - 情報を追加したい場合はカラムを追加してヘッダーのタイトルを記入してください
+ - 追加されたカラムはカレンダーのメッセージに追加されます。
 
 #### Push to LINE \(option\) 
  - if set your \<LINE_NOTIFY_TOKEN here\>, Push your Line. 
